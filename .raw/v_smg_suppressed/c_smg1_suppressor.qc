@@ -5,17 +5,15 @@ $origin 0 0 68
 $contents notsolid 
 $surfaceprop no_decal 
 
-$modelname weapons/v_smg1
+$modelname weapons/c_smg1
 
 $include _v_models_hl2_definebones.qci
 
 $body SMG smg1_ref
 $model Suppressor suppressor_v_ref
-$model HEV c_arms_hev
 
 $cdmaterials models/weapons/v_smg1
 $cdmaterials models/weapons/attachments
-$cdmaterials models/weapons/v_hand
 
 $attachment "muzzle" "ValveBiped.base" 0.00 0.50 16.00 rotate -90 0 0
 $attachment 1 "ValveBiped.eject" 0 0 0 
